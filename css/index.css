@@ -1,0 +1,50 @@
+.main-menu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-menu .map-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 7px solid #c58207;
+  background-color: #fdda96;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgb(200, 200, 200) 5px 5px 10px;
+}
+
+.main-menu a {
+  border-radius: 50% 50%;
+}
+
+.map-button i {
+  font-size: 50px;
+  color: #795004;
+}
+
+.hot-now {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border-top: 2px solid gray;
+  padding-top: 10px;
+}
+
+.hot-now-column {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.hot-now-column div {
+  margin: 0px 10px;
+}
+
+.hot-now ul {
+  width: 100%;
+}
