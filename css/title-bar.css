@@ -12,6 +12,7 @@
 
 .title-bar i {
   font-size: 40px;
+  cursor: pointer;
 }
 
 .title-bar span {

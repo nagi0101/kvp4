@@ -1,3 +1,47 @@
-body {
-  background-image: url("map.png");
+.map-body {
+  background-image: url("../map.png");
+  background-size: 100%;
+}
+
+.store i {
+  font-size: 60px;
+}
+
+.store-yellow i {
+  color: #c58207;
+}
+.store-green i {
+  color: #b6d7a8;
+}
+.store-red i {
+  color: #ea9999;
+}
+
+.store1 {
+  position: absolute;
+  top: 25%;
+  left: 65%;
+}
+.store2 {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+}
+.store3 {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+}
+.store4 {
+  position: absolute;
+  top: 77%;
+  left: 45%;
+}
+
+.my-location {
+  font-size: 60px;
+  position: absolute;
+  color: rgb(255, 73, 1);
+  top: 70%;
+  left: 50%;
 }
