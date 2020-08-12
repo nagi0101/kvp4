@@ -23,9 +23,24 @@
   color: #b6d7a8;
 }
 .tag-red {
-  background-color: #f4cccc;
-  border: 5px solid #ea9999;
-  color: #ea9999;
+  background-color: #ffb3b3;
+  border: 5px solid #e63939;
+  color: #e63939;
+}
+.tag-purple {
+  background-color: #e5ccf4;
+  border: 5px solid #e199ea;
+  color: #e199ea;
+}
+.tag-orange {
+  background-color: #f4dbcc;
+  border: 5px solid #eaac99;
+  color: #eaac99;
+}
+.tag-blue {
+  background-color: #cfccf4;
+  border: 5px solid #9e99ea;
+  color: #9e99ea;
 }
 
 .tag__ring {

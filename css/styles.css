@@ -6,6 +6,8 @@
 @import "tag.css";
 @import "map.css";
 @import "side-menu.css";
+@import "signin.css";
+@import "tag-setting.css";
 
 body {
   background-color: white;

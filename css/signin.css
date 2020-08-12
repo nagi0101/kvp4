@@ -1,0 +1,74 @@
+.signin-title-bar {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  padding: 0px 10px;
+}
+
+.signin-title-bar i {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.signin-title-bar span {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.signin-body {
+  width: 100%;
+  margin-top: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.welcome,
+.user-type {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(10, 10, 10);
+  margin: 20px 0px;
+}
+
+.welcome {
+  border-bottom: 1px dotted black;
+}
+
+.welcome__signin {
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.welcome__welcome {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.check {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+
+.check input {
+  width: 15px;
+  height: 15px;
+}
+
+.next-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 40px;
+}
