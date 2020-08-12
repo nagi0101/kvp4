@@ -25,7 +25,7 @@
     </div>
     <header class="title-bar">
       <div class="menu-bar">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars js-menuBarBtn"></i>
       </div>
       <div class="title">
         <span class="title__title">A.BOONG!</span>
@@ -133,6 +133,28 @@
         </li>
       </ul>
     </div>
-    <div class="menu"></div>
+    <div class="js-sideMenu">
+      <div class="sideMenu__white">
+        <div class="sideMenu__user sideMenu__menus">
+          <span class="sideMenu__login">Log in</span>
+          <a href="signin.html" class="sideMenu__signin">
+            ▶Sign in
+          </a>
+        </div>
+        <div class="sideMenu__menusForUser sideMenu__menus">
+          <a href="tag-setting.html" class="sideMenu__menu">
+            <span class="menuForUser">∝관심Tag설정</span>
+          </a>
+          <span class="menuForUser sideMenu__menu">∝커뮤니티</span>
+          <span class="menuForUser sideMenu__menu">∝내 관심 가게</span>
+        </div>
+        <div class="sideMenu__menusForDev sideMenu__menus">
+          <span class="menuForDev sideMenu__menu">∝공지사항</span>
+          <span class="menuForDev sideMenu__menu">∝설정</span>
+        </div>
+      </div>
+      <div class="sideMenu__none"></div>
+    </div>
+    <script src="sidemenu.js"></script>
   </body>
 </html>
